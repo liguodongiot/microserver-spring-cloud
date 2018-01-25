@@ -7,7 +7,11 @@ http://localhost:9991/hi
 foo version 2
 
 
+
+D:\Program Files\rabbitmq_server-3.7.2\sbin>
 rabbitmq-service start 
+
+
 最后重新输入rabbitmq-plugins enable rabbitmq_management试试，
 我是这样解决的；
 
