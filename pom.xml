@@ -25,6 +25,9 @@
         <module>spring-cloud-config-eureka-server</module>
         <module>spring-cloud-bus</module>
         <module>spring-cloud-bus2</module>
+        <module>spring-cloud-zipkin-server</module>
+        <module>spring-cloud-zipkin-hi</module>
+        <module>spring-cloud-zipkin-miya</module>
     </modules>
 
     <parent>
