@@ -1,4 +1,4 @@
-package com.lgd.micro.config;
+package com.lgd.micro.bus;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -6,7 +6,7 @@ import org.springframework.cloud.config.server.EnableConfigServer;
 
 /**
  * <p>Project: microserver-spring-cloud</p>
- * <p>Package: com.lgd.micro.config</p>
+ * <p>Package: com.lgd.micro.bus</p>
  * <p>Title: </p>
  * <p>Description: </p>
  *

@@ -1,4 +1,4 @@
-package com.lgd.micro.config;
+package com.lgd.micro.bus;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.SpringApplication;
@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 /**
  * <p>Project: microserver-spring-cloud</p>
- * <p>Package: com.lgd.micro.config</p>
+ * <p>Package: com.lgd.micro.bus</p>
  * <p>Title: </p>
  * <p>Description: </p>
  *
