@@ -1,9 +1,11 @@
-package com.lgd.micro.feign.hystrix;
+package com.lgd.micro.feign;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cloud.client.circuitbreaker.EnableCircuitBreaker;
 import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 import org.springframework.cloud.netflix.feign.EnableFeignClients;
+import org.springframework.cloud.netflix.hystrix.dashboard.EnableHystrixDashboard;
 
 /**
  * <p>Project: spring-cloud</p>
@@ -18,6 +20,9 @@ import org.springframework.cloud.netflix.feign.EnableFeignClients;
 @SpringBootApplication
 @EnableDiscoveryClient
 @EnableFeignClients
+@EnableHystrixDashboard
+//fegin方式的HystrixDashboard不能少这个注解
+@EnableCircuitBreaker
 public class ServiceFeignHystrixApplication {
 
     public static void main(String[] args) {
