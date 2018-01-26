@@ -28,6 +28,9 @@
         <module>spring-cloud-zipkin-server</module>
         <module>spring-cloud-zipkin-hi</module>
         <module>spring-cloud-zipkin-miya</module>
+        <module>spring-cloud-eureka-server-ha1</module>
+        <module>spring-cloud-eureka-server-ha2</module>
+        <module>spring-cloud-eureka-client-ha</module>
     </modules>
 
     <parent>
