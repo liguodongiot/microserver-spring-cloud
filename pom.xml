@@ -32,6 +32,9 @@
         <module>spring-cloud-eureka-server-ha2</module>
         <module>spring-cloud-eureka-client-ha</module>
         <module>spring-cloud-consul</module>
+        <module>spring-cloud-eureka-client-dashboard</module>
+        <module>spring-cloud-eureka-client-lucy</module>
+        <module>spring-cloud-eureka-service-turbine</module>
     </modules>
 
     <parent>
