@@ -46,5 +46,27 @@ vim mysql.json
 
 根据新的配置重启服务 
 ./consul agent -server -ui -bootstrap-expect 1 -data-dir /tmp/consul -config-dir etc/consul.d
+
+
+
+http://blog.csdn.net/forezp/article/details/70188595
+
+
+
+
+
+
+
+
+
+
+--------------------
+
+consul agent -dev
+
+打开网址：http://localhost:8500 ，可以看到界面，相关服务发现的界面。
+
+
+http://localhost:8502/hi
 ```
 
