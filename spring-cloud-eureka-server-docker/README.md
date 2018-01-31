@@ -14,4 +14,12 @@
 [root@runoob ~]# service docker start
 
 [root@runoob ~]# docker run hello-world
+
+
+
+
+mvn clean
+mvn clean package docker:build
+
+
 ```
