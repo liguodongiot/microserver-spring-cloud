@@ -27,4 +27,12 @@ mvn clean package docker:build
 cd *-server-docker
 
 
+史上最简单的SpringCloud教程 | 第十一篇: docker部署spring cloud项目
+http://blog.csdn.net/forezp/article/details/70198649
+
+docker安装使用
+http://www.runoob.com/docker/centos-docker-install.html
+
+用 Docker 构建、运行、发布一个 Spring Boot 应用
+https://yq.aliyun.com/articles/47344
 ```
