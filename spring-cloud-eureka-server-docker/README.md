@@ -18,13 +18,20 @@
 
 
 cd *-client-docker
-mvn clean
-
-
 mvn clean package docker:build
 
 
 cd *-server-docker
+mvn clean package docker:build
+
+
+docker run -p 8761:8761 -t forezp/spring-cloud-eureka-server-docker
+docker run -p 8763:8763 -t forezp/spring-cloud-eureka-client-docker
+
+
+http://10.250.140.14:8761/
+
+
 
 
 史上最简单的SpringCloud教程 | 第十一篇: docker部署spring cloud项目
