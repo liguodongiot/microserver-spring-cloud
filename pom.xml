@@ -35,6 +35,8 @@
         <module>spring-cloud-eureka-client-dashboard</module>
         <module>spring-cloud-eureka-client-lucy</module>
         <module>spring-cloud-eureka-service-turbine</module>
+        <module>spring-cloud-eureka-server-docker</module>
+        <module>spring-cloud-eureka-client-docker</module>
     </modules>
 
     <parent>
