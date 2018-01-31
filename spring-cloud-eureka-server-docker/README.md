@@ -17,9 +17,14 @@
 
 
 
-
+cd *-client-docker
 mvn clean
+
+
 mvn clean package docker:build
+
+
+cd *-server-docker
 
 
 ```
