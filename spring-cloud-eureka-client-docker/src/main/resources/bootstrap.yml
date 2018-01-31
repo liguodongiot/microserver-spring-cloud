@@ -1,7 +1,7 @@
 eureka:
   client:
     serviceUrl:
-      defaultZone: http://eureka-server:8761/eureka/ # 这个需要改为eureka-server
+      defaultZone: http://localhost:8761/eureka/ # 这个需要改为eureka-server
 server:
   port: 8763
 spring:
