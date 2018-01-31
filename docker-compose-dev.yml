@@ -1,0 +1,11 @@
+version: '3'
+services:
+  spring-cloud-eureka-server-docker:
+    build: spring-cloud-eureka-server-docker
+    ports:
+      - 8761:8761
+
+  spring-cloud-eureka-client-docker:
+    build: spring-cloud-eureka-client-docker
+    ports:
+      - 8763:8763

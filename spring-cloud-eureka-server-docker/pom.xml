@@ -15,6 +15,7 @@
 
     <properties>
         <docker.image.prefix>forezp</docker.image.prefix>
+        <directory>${project.basedir}/target</directory>
     </properties>
 
     <dependencies>
@@ -44,7 +45,8 @@
                     <resources>
                         <resource>
                             <targetPath>/</targetPath>
-                            <directory>${project.build.directory}</directory>
+                            <!--<directory>${project.build.directory}</directory>-->
+                            <directory>${project.basedir}/target</directory>
                             <include>${project.build.finalName}.jar</include>
                         </resource>
                     </resources>
